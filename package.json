@@ -31,7 +31,7 @@
     "serve": "serve -s build",
     "build-and-serve": "npm run build && npm run serve",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "npm ci && npm run build && firebase deploy",
     "pull": "git pull && npm i && npm start"
   },
   "eslintConfig": {

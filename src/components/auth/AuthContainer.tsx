@@ -4,9 +4,8 @@ import { useNavigate } from "react-router-dom";
 import { auth, Providers } from "../../config/firebase";
 import { Button, Typography } from "@mui/material";
 import GoogleIcon from "@mui/icons-material/Google";
-import Center from "../utils/Center";
 
-interface Props {}
+interface Props { }
 
 const AuthContainer = (props: Props) => {
   const navigate = useNavigate();
@@ -28,7 +27,7 @@ const AuthContainer = (props: Props) => {
   };
 
   return (
-    <Center height={"auto"}>
+    <>
       <Button
         startIcon={<GoogleIcon />}
         size="large"
@@ -41,7 +40,7 @@ const AuthContainer = (props: Props) => {
       <Typography sx={{ mt: 2 }} color={"red"}>
         {errorMessage}
       </Typography>
-    </Center>
+    </>
   );
 };
 

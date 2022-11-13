@@ -1,16 +1,12 @@
 import { useEffect } from "react";
-import Logout from "../components/auth/Logout";
-import Center from "../components/utils/Center";
 
-interface Props {}
+interface Props { }
 
-const Home = ({}: Props) => {
-  useEffect(() => {}, []); // eslint-disable-line react-hooks/exhaustive-deps
+const Home = ({ }: Props) => {
+  useEffect(() => { }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
-    <Center>
-      <Logout />
-    </Center>
+    <h2>welcome</h2>
   );
 };
 
