@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/book-wish-list/static/css/main.e6c13ad2.css",
+    "main.js": "/book-wish-list/static/js/main.d441595e.js",
+    "static/js/787.901e6453.chunk.js": "/book-wish-list/static/js/787.901e6453.chunk.js",
+    "index.html": "/book-wish-list/index.html",
+    "main.e6c13ad2.css.map": "/book-wish-list/static/css/main.e6c13ad2.css.map",
+    "main.d441595e.js.map": "/book-wish-list/static/js/main.d441595e.js.map",
+    "787.901e6453.chunk.js.map": "/book-wish-list/static/js/787.901e6453.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.d441595e.js"
+  ]
+}
