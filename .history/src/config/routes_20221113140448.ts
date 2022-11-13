@@ -1,6 +1,5 @@
 import Home from "../screens/Home";
 import Login from "../screens/Login";
-import Welcome from "../screens/Welcome";
 
 interface RouteType {
   path: string;
@@ -23,8 +22,8 @@ const routes: RouteType[] = [
     protected: false,
   },
   {
-    path: "/welcome",
-    component: Welcome,
+    path: "/your-route",
+    component: YourScreenComponentName,
     name: "Screen Name For Reference",
     protected: false, // if user needs to be authenticated to access this screen
   }
